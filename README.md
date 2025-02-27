@@ -58,3 +58,7 @@ export default tseslint.config({
 - Vite
 - styled-components
 - ThemeProvider, defaultTheme and global style
+
+## Figma Design
+The design for the Coffee Delivery website was based on the following Figma file: <br>
+https://www.figma.com/community/file/1138814493269096792
