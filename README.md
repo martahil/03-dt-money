@@ -52,3 +52,9 @@ export default tseslint.config({
   },
 })
 ```
+
+## Technologies Used
+
+- Vite
+- styled-components
+- ThemeProvider, defaultTheme and global style
