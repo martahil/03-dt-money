@@ -60,6 +60,7 @@ export default tseslint.config({
 - ThemeProvider, defaultTheme and global style
 - phosphor-react
 - radix-ui/react-dialog (acessibility)
+- json-server -D (API)
 
 ## Figma Design
 The design for the Coffee Delivery website was based on the following Figma file: <br>
