@@ -61,6 +61,8 @@ export default tseslint.config({
 - phosphor-react
 - radix-ui/react-dialog (acessibility)
 - json-server -D (API)
+- react-hook-form zod
+- @hookform/resolvers
 
 ## Figma Design
 The design for the Coffee Delivery website was based on the following Figma file: <br>
