@@ -23,6 +23,38 @@
       "category": "education",
       "price": 1980,
       "createdAt": "2025-02-01T16:35:20.390Z"
+    },
+    {
+      "description": "App development",
+      "price": 10000,
+      "category": "Sale",
+      "type": "income",
+      "createdAt": "2025-03-03T18:44:44.200Z",
+      "id": 4
+    },
+    {
+      "description": "Pastel",
+      "price": 5,
+      "category": "food",
+      "type": "outcome",
+      "createdAt": "2025-03-03T18:53:20.417Z",
+      "id": 5
+    },
+    {
+      "description": "Frozen Yogurt",
+      "price": 4,
+      "category": "food",
+      "type": "outcome",
+      "createdAt": "2025-03-03T19:12:58.455Z",
+      "id": 6
+    },
+    {
+      "description": "Banana",
+      "price": 3,
+      "category": "Food",
+      "type": "outcome",
+      "createdAt": "2025-03-03T19:14:19.560Z",
+      "id": 7
     }
   ]
 }
