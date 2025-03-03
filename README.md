@@ -1,6 +1,6 @@
 ## DT Money
 
-## React + TypeScript + Vite
+##### React + TypeScript + Vite
 
 ![My Project Screenshot](/src/assets/website-screenshot.png)
 
