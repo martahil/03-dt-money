@@ -18,7 +18,7 @@ type NewTransactionFormInputs = z.infer<typeof NewTransactionFormSchema>
 
 export function NewTransactionModal() {
   const createTransaction = useContextSelector(
-    TransactionsContext, 
+    TransactionsContext,
     (context) => {
       return context.createTransaction
     },
@@ -86,8 +86,8 @@ export function NewTransactionModal() {
             name="type"
             render={({ field }) => {
               return (
-                <TransactionType 
-                  onValueChange={field.onChange} 
+                <TransactionType
+                  onValueChange={field.onChange}
                   value={field.value}
                 >
                   <TransactionTypeButton variant="income" value="income">

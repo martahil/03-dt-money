@@ -55,6 +55,14 @@
       "type": "outcome",
       "createdAt": "2025-03-03T19:14:19.560Z",
       "id": 7
+    },
+    {
+      "description": "Power Bill",
+      "price": 125,
+      "category": "Household Expenses",
+      "type": "outcome",
+      "createdAt": "2025-03-03T23:47:22.211Z",
+      "id": 8
     }
   ]
 }
