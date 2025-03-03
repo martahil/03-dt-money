@@ -1,72 +1,37 @@
-# React + TypeScript + Vite
+## DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React + TypeScript + Vite
 
-Currently, two official plugins are available:
+![My Project Screenshot](/src/assets/website-screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+DT Money is a financial management application for tracking income and expenses. This project was developed based on a React course by Rocketseat.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- Add new transactions by providing a description, price, category, and selecting whether it's an income or an expense.
+- View all recorded transactions in a dynamic table, with newly added items automatically included.
+- See a financial summary displaying the total income, total expenses, and overall balance.
+- Use the search filter to find specific transactions based on keywords.
 
 ## Technologies Used
 
-- Vite
-- styled-components
-- ThemeProvider, defaultTheme and global style
-- phosphor-react
-- radix-ui/react-dialog (acessibility)
-- json-server -D (API)
-- react-hook-form zod
-- @hookform/resolvers
-- axios
-- use-context-selector scheduler
-- useCallback
+This project was built using modern web development tools and libraries:
+
+- Vite: Fast development environment for modern web applications.
+- styled-components: For styling components with dynamic themes.
+    - ThemeProvider, defaultTheme, and global styles for consistent design.
+- phosphor-react: Icon library for a modern UI.
+- radix-ui/react-dialog: Accessibility-focused modal dialogs.
+- json-server (dev dependency): Mock API for handling transactions.
+- react-hook-form & zod: Form validation and management.
+    - @hookform/resolvers for integrating Zod with React Hook Form.
+- axios: HTTP client for API requests.
+- use-context-selector & scheduler: Optimized context state management.
+- useCallback & useMemo: Performance optimizations to prevent unnecessary re-renders.
+
+This stack ensures efficiency, scalability, and a great user experience.
 
 ## Figma Design
+
 The design for the Coffee Delivery website was based on the following Figma file: <br>
 https://www.figma.com/community/file/1138814493269096792
