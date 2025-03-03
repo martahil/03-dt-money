@@ -64,6 +64,7 @@ export default tseslint.config({
 - react-hook-form zod
 - @hookform/resolvers
 - axios
+- use-context-selector scheduler
 
 ## Figma Design
 The design for the Coffee Delivery website was based on the following Figma file: <br>
